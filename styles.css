@@ -53,9 +53,19 @@ main {
     font-size: 22px;
     text-align: right;
     padding: 15px;
-    border:outset ;
+    border: outset;
     background-color: #9ea899;
 }
+
+.historial {
+    height: 20px;
+    font-size: 14px;
+    color: #ddd;
+    text-align: right;
+    margin-bottom: 5px;
+    opacity: 0.8;
+}
+
 
 .botones {
     display: grid;
@@ -68,6 +78,10 @@ main {
 .number {}
 
 .operator {
+    background-color: #948cdc;
+}
+
+.sqrt {
     background-color: #948cdc;
 }
 
